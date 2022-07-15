@@ -72,6 +72,8 @@ namespace ClientSearchbyPin.DB
                 model.HesabAd = reader["hes_ad"].ToString();
                 model.Hesab = reader["hesab"].ToString();
 
+                //test
+
                 mushteriHesabMelumat.Add(model);
 
             }
