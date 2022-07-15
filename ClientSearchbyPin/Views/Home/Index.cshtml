@@ -1,0 +1,13 @@
+﻿@model MainViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Mushteri app</p>
+    <form method="post">
+        <input type="text" name="pinCode" />
+        <button asp-controller="Home" asp-action="Index" type="submit" value="Show">Show</button>
+    </form>
+</div>
